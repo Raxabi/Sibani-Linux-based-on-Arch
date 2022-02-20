@@ -1,0 +1,211 @@
+##############################################################
+#	Packages that will be installed by default           #
+#	Uncomment the package that u want to install         #
+#	or comment the packages that u won't to be installed.#
+#	Visit our official website for more information      #
+#	or solutions for any problems                        #
+#	https://rarchxbi-official-site.herokuapp.com/        #
+##############################################################
+
+## Default packages includes default with archiso
+
+alsa-utils
+amd-ucode
+arch-install-scripts
+archinstall
+b43-fwcutter
+base
+bind-tools
+brltty
+broadcom-wl
+btrfs-progs
+clonezilla
+cloud-init
+crda
+cryptsetup
+darkhttpd
+ddrescue
+dhclient
+dhcpcd
+diffutils
+dmraid
+dnsmasq
+dosfstools
+e2fsprogs
+edk2-shell
+efibootmgr
+espeakup
+ethtool
+exfatprogs
+f2fs-tools
+fatresize
+fsarchiver
+gnu-netcat
+gpart
+gpm
+gptfdisk
+grml-zsh-config
+grub
+hdparm
+intel-ucode
+ipw2100-fw
+ipw2200-fw
+irssi
+iw
+iwd
+jfsutils
+kitty-terminfo
+less
+lftp
+libfido2
+libusb-compat
+linux
+linux-atm
+linux-firmware
+livecd-sounds
+lsscsi
+lvm2
+lynx
+man-db
+man-pages
+mc
+mdadm
+memtest86+
+mkinitcpio
+mkinitcpio-archiso
+mkinitcpio-nfs-utils
+modemmanager
+mtools
+nano
+nbd
+ndisc6
+nfs-utils
+nilfs-utils
+nmap
+ntfs-3g
+nvme-cli
+openconnect
+openssh
+openvpn
+partclone
+parted
+partimage
+pcsclite
+ppp
+pptpclient
+pv
+qemu-guest-agent
+refind
+reflector
+reiserfsprogs
+rp-pppoe
+rsync
+rxvt-unicode-terminfo
+screen
+sdparm
+sg3_utils
+smartmontools
+sof-firmware
+squashfs-tools
+sudo
+syslinux
+systemd-resolvconf
+tcpdump
+terminus-font
+testdisk
+tmux
+tpm2-tss
+udftools
+usb_modeswitch
+usbmuxd
+usbutils
+vim
+virtualbox-guest-utils-nox
+vpnc
+wireless-regdb
+wireless_tools
+wpa_supplicant
+wvdial
+xfsprogs
+xl2tpd
+zsh
+
+## System recommended packages
+base-devel ## It's like a build-essentials
+#qterminal ## Alternative for xfce4-terminal
+os-prober
+gcc
+perl
+fuse
+
+## Desktop Packages
+xorg
+xorg-server
+xfce4
+lightdm
+lightmd-gtk-greeter
+firefox
+chromium
+
+## Free / Open Source Video Drivers
+mesa
+xf86-video-nouveau
+xf86-video-intel
+xf86-video-amdgpu
+
+## Extra useful packages
+gparted
+gnome-keyring
+lm-sensors
+htop
+neofetch
+#hardinfo
+#nvtop
+flameshot
+viewnoir
+rar
+unzip
+zip
+tar
+tree
+redshift ##Blue Light filter, if u select a DE (Desktop Environment) that dont provide with that by default
+fish
+git
+python
+nodejs
+npm
+virtualbox
+virtualbox-host-modules-arch ## Use this package for Linux Kernel (Default Kernel)
+## virtualbox-host-dkms ## Use this package if u are using a custom Kernel
+
+## Audio Packages
+alsa-firmware
+alsa-plugins
+pulseaudio
+pulseaudio-alsa
+pavucontrol
+xfce4-pulseaudio-plugin
+
+## Network Packages
+networkmanager
+network-manager-applet
+netplan
+samba
+net-tools
+inetutils
+
+## Video and Audio Packages
+vlc
+obs-studio
+ffmpeg
+
+## Basic fonts
+gnu-free-fonts
+ttf-open-sans
+ttf-hack ##(Recommended for use in terminal)
+ttf-fonts-emoji
+noto-fonts-cjk
+powerline
+python-powerline
+powerline-common
+powerline-fonts
