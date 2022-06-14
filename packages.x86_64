@@ -212,7 +212,3 @@ ttf-open-sans
 ttf-hack ##(Recommended for use in terminal)
 ttf-fonts-emoji
 noto-fonts-cjk
-powerline
-python-powerline
-powerline-common
-powerline-fonts
