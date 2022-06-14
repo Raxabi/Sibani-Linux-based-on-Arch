@@ -180,6 +180,7 @@ git
 python
 nodejs
 npm
+xclip
 virtualbox
 virtualbox-host-modules-arch ## Use this package for Linux Kernel (Default Kernel)
 ## virtualbox-host-dkms ## Use this package if u are using a custom Kernel
